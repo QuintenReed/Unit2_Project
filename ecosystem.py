@@ -3,6 +3,7 @@ from random import randint
 # I have not figured out how to make them not overlap, even though I tried everything that I thought would fix it
 # But it's 10:49 PM and I have to go to bed
 # I am annoyed I couldn't fix it
+# 11:14 PM: I'm noticing other issues but it's probably going to take too long to fix everything
 
 class River():
   def __init__(self, size, num_bears, num_fish):
