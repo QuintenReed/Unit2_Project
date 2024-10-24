@@ -1,0 +1,9 @@
+1. 4, as you will probably only need one for each
+2. It will add/remove animals from both the list and the river, and the population would go up/down
+3. Animal.collision() can trigger Bear.consume(), which will trigger Animal.death(), which will trigger River.animal_death()
+4. Bear.consume() will update Bear.lives (it will reset to Bear.max_lives) and Bear.eaten_today, Bear.starve() will lower Bear.lives by one
+5. 
+   a. 
+      a. The animal should move in the list
+      b. Print the list(?)
+   b. If the children are supposed to be held in a separate list until the end of the day (which you did say) then no
